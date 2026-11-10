@@ -1,0 +1,162 @@
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-family: Arial, sans-serif; 
+
+}
+.logo-text{
+    line-height: 0.8;
+    font-weight: 900;
+}
+.logo-icon{
+    background: #37034a;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-weight: 800;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-textpa{
+    color: #37034a;
+}
+title{
+    color:  white;
+}
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+herose,
+.heroses {
+    display: flex;
+}
+.image-container{
+    position: relative;
+}
+.image-container img{
+    border-radius: 20px;
+    display: block;
+}
+
+.badge-top{
+    position: relative;
+    position:absolute;
+    top: 30px;
+    right: -20px;
+    background:#37034a;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.badge-bottom{
+    position: relative;
+    position: absolute;
+    background: white;
+    color: #5a8ade;
+    border-radius: 15px;
+    text-align: center;
+    bottom: 30px;
+    left: -20px;
+    padding: 15px;
+}
+
+.badge-top h2,
+.badge-bottom h2{
+    margin: 0;
+    font-size: 2rem;
+}
+ .badge-top p,
+ .badge-bottom p{
+    margin: 5px 0 0;
+    font-size: 1rem;
+ }
+
+.mon-avenir {
+    color:#37034a;
+}
+
+
+.ma-liste {
+    border: 2px solid;
+    width: 300px;
+    border-radius: 30px;
+    border-color: #bf6ddd;
+    background-color:#bf70db;
+    height: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+ }    
+.parent{
+    display: flex;
+}
+.cadre1 {
+    border: 2px solid;
+    font-weight: bold;
+}
+
+.cadre1 {
+    border: 2px solid;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    border-color:#37034a;
+    background-color:#37034a;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cadre2 {
+    border: 2px solid;
+    width: 250px;
+    height: 50px;
+    color: #37034a;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background: #f8f8ff;
+}
+.stat{
+    text-align: center;
+    line-height: 0.1;
+}
+.stat h2{
+    font-size: 25px;
+    font-weight: 800;
+    color:#37034a;
+}
+.stat p{
+    font-size: 16px;
+    color: #666;
+}

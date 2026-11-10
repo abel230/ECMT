@@ -1,0 +1,179 @@
+.contact{
+    background-color:#ece7ee ;
+    width: 100px;
+    border-radius: 15px;
+    height: 45px;
+    font-weight: bold;
+    color: #37034a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parlons{
+    color: #3e0851;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 0.7;
+}
+.parlons-1{
+    color: #0c000fe7;
+}
+
+.adresse-icon{
+    background-color: #3e0851;
+    width: 55px;
+    height: 55px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.adresse-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.adresse-partext{
+    line-height: 0.1;
+    font-size: 15px;
+}
+.telephone-icon{
+    background-color: #3e0851;
+    width: 55px;
+    height: 55px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius:15px;
+
+}
+
+.telephone-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.telephone-partext{
+    line-height: 0.1;
+    font-size: 15px;
+}
+
+.email-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;  
+}
+.email-icon{
+    background-color: #3e0851;
+    width: 55px;
+    height: 55px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius:15px;
+}
+.email-partext{
+    line-height: 0.1;
+    font-size: 15px
+
+}
+
+.horaires-info{
+      display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+}
+.horaires-icon{
+    background-color: #3e0851;
+    width: 55px;
+    height: 55px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius:15px;
+}
+.horaires-partext{
+    line-height: 0.1;
+    font-size: 15px;
+}
+
+
+
+.bas-logoicon{
+    background-color: #3e0851;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    color: #a535ce;
+}
+.bas-para{
+    color: white;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.7;
+}
+.bas-paraali{
+    color: #bf6ddd;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bas-logo{
+     display: flex;
+    align-items: flex-start;
+    gap: 20px; 
+
+}
+.bas-container{
+    background: #37034a;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+.bas-container1{
+    background: #37034a;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+.bas-container2{
+    background: #37034a;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+
+}
+.bas{
+    
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-family: Arial, sans-serif; 
+
+    background: #37034a;
+}
+.lebas{
+    background: #37034a;
+}
+.bas-bottompa{
+    display: flex;
+    justify-content: space-between;
+}

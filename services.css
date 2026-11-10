@@ -1,0 +1,114 @@
+ .expertises {
+    text-align: center;
+    font-size:  50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+.tag-pill {
+    text-align: center;
+    border: 3px solid;
+    width: 160px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    background-color:rgb(194, 206, 216) ;
+    border-color: #37034a;
+    border-radius: 10px;
+}
+
+.paragraphe {
+    text-align: center;
+    color: dimgrey;
+}
+.services {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-family: Arial, sans-serif; 
+
+}
+
+.herose{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mon-oeuvre {
+    width: 350px;
+    background:#fff;
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow: 0 10px 30px rgba(200, 15, 15, 0.08);
+    transition: 0.4s;
+}
+.mon-oeuvre:hover {
+    transform: translate(-10px);
+    background-color:#37034a;
+}
+
+.numero{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+.mon-oeuvre h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.mon-oeuvre p {
+    line-height: 1.8; 
+    margin-bottom: 25px;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.tags span {
+    padding: 8px 15px;
+    border-radius: 30px;
+    background: #eef2ff;
+    color:#37034a;
+    font-weight: bold;
+}
+
+.ossature{
+    width: 350px;
+    background:#fff;
+    border-radius: 25px;
+    padding: 35px;
+    transition: 0.4s;
+}
+.ossature:hover{
+    transform: translate(-10px);
+    background-color: #37034a;
+}
+.ossature h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.ossature p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.acier {
+    padding: 35px;
+    width: 350px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 0.4s ;
+
+}
+.acier:hover{
+    transform: translate(-10px);
+    background-color: #37034a;
+} 

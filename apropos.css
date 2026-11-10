@@ -1,0 +1,32 @@
+
+
+.img-texte{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 35px;
+}
+
+.texte-liste{
+    background: #a535ce;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.texte{
+    color: #460a5e;
+    font-weight: 800;
+}
+.photo-texte{
+    border-radius: 15px;
+    max-width: 800px;
+    max-height: 800px;
+}
